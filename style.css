@@ -1,0 +1,19 @@
+h1 {
+    margin: 20px;
+    padding: 20px;
+    color: white;
+}
+
+.Cars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 18rem;
+    background-color: #222; /* Darker background for the cards */
+    color: white; /* Ensures text inside the card is readable */
+}
+
